@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'FantasticViewPravin'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'By far the most fantastic view I have seen in my entire life. No joke.'
   s.swift_version    = '4.0'
   s.license      = { :type => 'MIT', :text => <<-LICENSE
