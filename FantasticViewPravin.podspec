@@ -17,7 +17,7 @@ This fantastic view changes its color gradually makes your app look fantastic!
   s.author           = { 'Pravin Sankeshwari' => 'pravin.s@tailoredtech.in' }
   s.source           = { :git => 'https://github.com/pravins89/FantasticView.git', :tag => s.version.to_s }
  
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '9.0'
   s.source_files = 'FantasticView/*.swift'
  
 end
