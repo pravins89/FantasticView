@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'FantasticViewPravin'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'By far the most fantastic view I have seen in my entire life. No joke.'
   s.swift_version    = '4.0'
   s.license      = { :type => 'MIT', :text => <<-LICENSE
@@ -18,6 +18,6 @@ This fantastic view changes its color gradually makes your app look fantastic!
   s.source           = { :git => 'https://github.com/pravins89/FantasticView.git', :tag => s.version.to_s }
  
   s.ios.deployment_target = '9.0'
-  s.source_files = 'FantasticView/*.swift'
+  s.source_files = 'FantasticView/FantasticViewPravin.swift'
  
 end
