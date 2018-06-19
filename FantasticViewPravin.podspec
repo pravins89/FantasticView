@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'FantasticViewPravin'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = 'By far the most fantastic view I have seen in my entire life. No joke.'
   s.license      = { :type => 'MIT', :text => <<-LICENSE
                    Copyright 2012
@@ -18,5 +18,5 @@ This fantastic view changes its color gradually makes your app look fantastic!
  
   s.ios.deployment_target = '9.0'
   s.source_files = 'FantasticView/Fantastic/*.swift'
- 
+  s.dependency 'IQKeyboardManagerSwift'
 end
