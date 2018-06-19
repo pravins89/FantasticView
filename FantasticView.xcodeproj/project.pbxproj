@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B795AFF1D50DE39A8B681D4 /* Pods_FantasticViewTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87F21C6B5BE763780F825BDB /* Pods_FantasticViewTests.framework */; };
 		7533FEF420D8DA1F0095EE1E /* FantasticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7533FEF220D8DA1F0095EE1E /* FantasticView.swift */; };
 		7533FEF520D8DA1F0095EE1E /* FantasticViewPravin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7533FEF320D8DA1F0095EE1E /* FantasticViewPravin.swift */; };
 		75F81ED720D77218009D5971 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F81ED620D77218009D5971 /* AppDelegate.swift */; };
@@ -15,6 +16,7 @@
 		75F81EDE20D7721B009D5971 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75F81EDD20D7721B009D5971 /* Assets.xcassets */; };
 		75F81EE120D7721B009D5971 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75F81EDF20D7721B009D5971 /* LaunchScreen.storyboard */; };
 		75F81EEC20D7721B009D5971 /* FantasticViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F81EEB20D7721B009D5971 /* FantasticViewTests.swift */; };
+		8C1A3FBD7012963F6579CDF7 /* Pods_FantasticView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F59E4C1099B10DB2F391E57F /* Pods_FantasticView.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		15E4D3D4C47842A81B534E33 /* Pods-FantasticViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FantasticViewTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FantasticViewTests/Pods-FantasticViewTests.release.xcconfig"; sourceTree = "<group>"; };
+		62F0A743FED9568C7DBBCB1C /* Pods-FantasticView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FantasticView.release.xcconfig"; path = "Pods/Target Support Files/Pods-FantasticView/Pods-FantasticView.release.xcconfig"; sourceTree = "<group>"; };
 		7533FEF220D8DA1F0095EE1E /* FantasticView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FantasticView.swift; sourceTree = "<group>"; };
 		7533FEF320D8DA1F0095EE1E /* FantasticViewPravin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FantasticViewPravin.swift; sourceTree = "<group>"; };
 		75F81ED320D77218009D5971 /* FantasticView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FantasticView.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,6 +44,10 @@
 		75F81EE720D7721B009D5971 /* FantasticViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FantasticViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		75F81EEB20D7721B009D5971 /* FantasticViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FantasticViewTests.swift; sourceTree = "<group>"; };
 		75F81EED20D7721B009D5971 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87F21C6B5BE763780F825BDB /* Pods_FantasticViewTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FantasticViewTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96EBD0B19838AFD8216881DA /* Pods-FantasticViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FantasticViewTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FantasticViewTests/Pods-FantasticViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DE253DC0EE67CFF187566EB0 /* Pods-FantasticView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FantasticView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FantasticView/Pods-FantasticView.debug.xcconfig"; sourceTree = "<group>"; };
+		F59E4C1099B10DB2F391E57F /* Pods_FantasticView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FantasticView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C1A3FBD7012963F6579CDF7 /* Pods_FantasticView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,12 +63,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B795AFF1D50DE39A8B681D4 /* Pods_FantasticViewTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C3C6A9A740B30CD9438EEC3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DE253DC0EE67CFF187566EB0 /* Pods-FantasticView.debug.xcconfig */,
+				62F0A743FED9568C7DBBCB1C /* Pods-FantasticView.release.xcconfig */,
+				96EBD0B19838AFD8216881DA /* Pods-FantasticViewTests.debug.xcconfig */,
+				15E4D3D4C47842A81B534E33 /* Pods-FantasticViewTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4D1F6EDE9C73475A28DBE067 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F59E4C1099B10DB2F391E57F /* Pods_FantasticView.framework */,
+				87F21C6B5BE763780F825BDB /* Pods_FantasticViewTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7533FEF120D8DA1F0095EE1E /* Fantastic */ = {
 			isa = PBXGroup;
 			children = (
@@ -75,6 +105,8 @@
 				75F81ED520D77218009D5971 /* FantasticView */,
 				75F81EEA20D7721B009D5971 /* FantasticViewTests */,
 				75F81ED420D77218009D5971 /* Products */,
+				0C3C6A9A740B30CD9438EEC3 /* Pods */,
+				4D1F6EDE9C73475A28DBE067 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -117,9 +149,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 75F81EF020D7721B009D5971 /* Build configuration list for PBXNativeTarget "FantasticView" */;
 			buildPhases = (
+				C268FDA93CBFBA035CD0D4D1 /* [CP] Check Pods Manifest.lock */,
 				75F81ECF20D77218009D5971 /* Sources */,
 				75F81ED020D77218009D5971 /* Frameworks */,
 				75F81ED120D77218009D5971 /* Resources */,
+				353A628C57CCC8BA4E084837 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -134,6 +168,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 75F81EF320D7721B009D5971 /* Build configuration list for PBXNativeTarget "FantasticViewTests" */;
 			buildPhases = (
+				95F3098FAE8EB46D8316B9EC /* [CP] Check Pods Manifest.lock */,
 				75F81EE320D7721B009D5971 /* Sources */,
 				75F81EE420D7721B009D5971 /* Frameworks */,
 				75F81EE520D7721B009D5971 /* Resources */,
@@ -205,6 +240,63 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		353A628C57CCC8BA4E084837 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FantasticView/Pods-FantasticView-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FantasticView/Pods-FantasticView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95F3098FAE8EB46D8316B9EC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FantasticViewTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C268FDA93CBFBA035CD0D4D1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FantasticView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		75F81ECF20D77218009D5971 /* Sources */ = {
@@ -372,6 +464,7 @@
 		};
 		75F81EF120D7721B009D5971 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE253DC0EE67CFF187566EB0 /* Pods-FantasticView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -390,6 +483,7 @@
 		};
 		75F81EF220D7721B009D5971 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62F0A743FED9568C7DBBCB1C /* Pods-FantasticView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -408,6 +502,7 @@
 		};
 		75F81EF420D7721B009D5971 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96EBD0B19838AFD8216881DA /* Pods-FantasticViewTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -428,6 +523,7 @@
 		};
 		75F81EF520D7721B009D5971 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15E4D3D4C47842A81B534E33 /* Pods-FantasticViewTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
