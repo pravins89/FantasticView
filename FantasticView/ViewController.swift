@@ -14,7 +14,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        let fantasticView = FantasticView(frame: self.view.bounds)        
+        let fantasticView = FantasticViewPravin(frame: self.view.bounds)        
         self.view.addSubview(fantasticView)
     }
 
@@ -22,7 +22,5 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
 }
 

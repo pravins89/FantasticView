@@ -18,6 +18,6 @@ This fantastic view changes its color gradually makes your app look fantastic!
   s.source           = { :git => 'https://github.com/pravins89/FantasticView.git', :tag => s.version.to_s }
  
   s.ios.deployment_target = '9.0'
-  s.source_files = 'FantasticView/FantasticViewPravin.swift'
+  s.source_files = 'FantasticView/Fantastic/*.swift'
  
 end
